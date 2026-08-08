@@ -1,6 +1,6 @@
 class Solution {
     public int solution(int age) {
-        int answer = 2026 - age - 3;
+        int answer = 2022 - age + 1;
         return answer;
     }
 }

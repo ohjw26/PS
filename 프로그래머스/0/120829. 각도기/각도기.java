@@ -7,7 +7,7 @@ class Solution {
             answer = 2;
         } else if ( 0 < angle && angle < 180) {
             answer = 3;
-        } else if ( angle == 180 ) {
+        } else {
             answer = 4;
         }
         return answer;

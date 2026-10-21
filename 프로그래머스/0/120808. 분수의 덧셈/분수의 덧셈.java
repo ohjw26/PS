@@ -7,6 +7,7 @@ class Solution {
         int a = numer;
         int b = denom;
         
+        //유클리드 호제법
         while (b != 0) {
             int temp = b;
             b = a % b;

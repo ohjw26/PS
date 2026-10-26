@@ -5,6 +5,7 @@ class Solution {
             if (A.equals(B)) {
                 return i;
             }
+            
             A = A.substring(A.length() - 1) + A.substring(0, A.length() - 1);
         }
         

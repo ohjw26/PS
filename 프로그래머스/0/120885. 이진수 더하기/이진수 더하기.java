@@ -8,6 +8,7 @@ class Solution {
         
         //십진수 -> 이진수
         answer = Integer.toBinaryString(num1 + num2);
+        //answer = Integer.toString(num1 + num2, 2);
         
         return answer;
     }

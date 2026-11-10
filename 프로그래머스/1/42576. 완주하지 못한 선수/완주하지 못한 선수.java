@@ -10,12 +10,13 @@ class Solution {
         }
         
         for (String name : completion) {
-            map.put(name, map.getOrDefault(name, 0) - 1);
+            map.put(name, map.get(name) - 1);
         }
         
         for (String name : map.keySet()) {
             if (map.get(name) == 1) {
                 answer = name;
+                break;
             }
         }
         

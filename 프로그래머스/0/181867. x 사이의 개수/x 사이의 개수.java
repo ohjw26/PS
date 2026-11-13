@@ -1,5 +1,6 @@
 class Solution {
     public int[] solution(String myString) {
+        
         String[] str = myString.split("x", -1);
         int[] answer = new int[str.length];
         
